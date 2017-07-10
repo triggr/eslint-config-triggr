@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-triggr",
+  "version": "1.0.0",
+  "description": "Common ESLint configs for Triggr Health",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triggr/eslint-config-triggr.git"
+  },
+  "author": "Triggr Health",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/triggr/eslint-config-triggr/issues"
+  },
+  "homepage": "https://github.com/triggr/eslint-config-triggr#readme",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
+}
