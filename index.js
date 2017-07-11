@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    'arrow-parens': 'error',
     'curly': 'error',
     'eqeqeq': 'error',
     'max-len': [
