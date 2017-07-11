@@ -22,7 +22,11 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     'quotes': ["error", "single", {avoidEscape: true, allowTemplateLiterals: true}],
     'semi': 'error',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
     'wrap-iife': 'error',
   },
 };
