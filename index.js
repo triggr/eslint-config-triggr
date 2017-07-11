@@ -28,5 +28,6 @@ module.exports = {
       asyncArrow: 'always',
     }],
     'wrap-iife': 'error',
+    'arrow-parens': 'error',
   },
 };
