@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    'arrow-parens': 'error',
     'curly': 'error',
     'eqeqeq': 'error',
     'max-len': [
@@ -28,6 +29,5 @@ module.exports = {
       asyncArrow: 'always',
     }],
     'wrap-iife': 'error',
-    'arrow-parens': 'error',
   },
 };
