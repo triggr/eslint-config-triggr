@@ -28,6 +28,7 @@ module.exports = {
       named: 'never',
       asyncArrow: 'always',
     }],
+    'strict': 'error',
     'wrap-iife': 'error',
   },
 };
