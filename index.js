@@ -17,7 +17,7 @@ module.exports = {
     'no-tabs': 'error',
     'no-throw-literal': 'error',
     'no-trailing-spaces': 'error',
-    'no-unused-vars': ['error', {args: 'none'}],
+    'no-unused-vars': ['error', {args: 'none', ignoreRestSiblings: true}],
     'no-var': 'error',
     'object-curly-spacing': 'error',
     'prefer-promise-reject-errors': 'error',
